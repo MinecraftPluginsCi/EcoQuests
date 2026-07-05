@@ -19,7 +19,7 @@ A **quest** is a goal made up of one or more **tasks**; when a player finishes e
 
 ## Naming and IDs
 
-The file name without `.yml` is the quest ID; it's what you use in commands and placeholders. Items referenced anywhere in the file (e.g. the GUI icon) use the [Item Lookup System](https://plugins.auxilor.io/the-item-lookup-system).
+The file name without `.yml` is the quest ID; it's what you use in commands and placeholders. Items referenced anywhere in the file (e.g. the GUI icon) use the [Item Lookup System](https://hub.auxilor.io/wiki/eco/the-item-lookup-system-the-item-lookup-system).
 
 :::warning ID rules
 IDs may only contain lowercase letters, numbers, and underscores (a-z, 0-9, _). No spaces, capitals, or hyphens, or the quest will not load.
@@ -113,8 +113,8 @@ rewards: # Effects run when the quest completes
 :::danger Effects are their own system
 `rewards`, `start-effects`, and `start-conditions` all run on the effect and condition system, which is shared across every eco plugin and documented separately.
 
-- [Configuring an Effect](https://plugins.auxilor.io/effects/configuring-an-effect)
-- [Configuring an Effect Chain](https://plugins.auxilor.io/effects/configuring-a-chain)
+- [Configuring an Effect](https://hub.auxilor.io/wiki/libreforge/configuring-an-effect)
+- [Configuring an Effect Chain](https://hub.auxilor.io/wiki/libreforge/configuring-a-chain)
 :::
 
 ### Quest start

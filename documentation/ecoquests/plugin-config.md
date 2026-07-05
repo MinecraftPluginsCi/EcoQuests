@@ -91,7 +91,7 @@ gui:
       row: 6
       column: 5
 
-  # Custom GUI slots; see here for a how-to: https://plugins.auxilor.io/all-plugins/custom-gui-slots
+  # Custom GUI slots; see here for a how-to: https://hub.auxilor.io/wiki/eco/pages
   custom-slots: [ ]
 
 completed-gui: # The GUI listing quests the player has finished
@@ -146,7 +146,7 @@ completed-gui: # The GUI listing quests the player has finished
       row: 6
       column: 1
 
-  # Custom GUI slots; see here for a how-to: https://plugins.auxilor.io/all-plugins/custom-gui-slots
+  # Custom GUI slots; see here for a how-to: https://hub.auxilor.io/wiki/eco/pages
   custom-slots: [ ]
 
 tasks: # How a task line renders inside a quest icon
@@ -229,6 +229,6 @@ quests:
 ## Where to go next
 
 - **Make a quest:** [How to make a quest](how-to-make-a-quest) covers the per-quest config files.
-- **GUI item references:** the `item` fields use the [Item Lookup System](https://plugins.auxilor.io/the-item-lookup-system).
-- **Custom GUI slots:** read the [custom GUI slots how-to](https://plugins.auxilor.io/all-plugins/custom-gui-slots).
+- **GUI item references:** the `item` fields use the [Item Lookup System](https://hub.auxilor.io/wiki/eco/the-item-lookup-system-the-item-lookup-system).
+- **Custom GUI slots:** read the [custom GUI slots how-to](https://hub.auxilor.io/wiki/eco/pages).
 
